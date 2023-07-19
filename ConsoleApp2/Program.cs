@@ -9,6 +9,11 @@ namespace ConsoleApp2
 {
     internal class Program
     {
+        static void func(ref Cat c)
+        {
+            c.Gender = 12345;
+        }
+
         static void Main(string[] args)
         {
             //System.Console.WriteLine("salam");
@@ -61,6 +66,14 @@ namespace ConsoleApp2
             c3.Number = 8182;
 
             System.Console.WriteLine(c4.Number);
+
+            Cat cat = new Cat(333, "hhh");
+            System.Console.WriteLine(cat.Gender);
+
+            func (ref cat);
+
+            System.Console.WriteLine(cat.Gender);
+
 
 
 
