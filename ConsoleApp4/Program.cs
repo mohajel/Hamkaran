@@ -1,4 +1,5 @@
-﻿using ConsoleApp4.Properties;
+﻿using ClassLibrary1;
+using ConsoleApp4.Properties;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -49,7 +50,45 @@ namespace ConsoleApp4
             {
                 Console.WriteLine(catty);
             }
-            
-        }   
+
+            // or
+            //var x = list.GetEnumerator();
+
+            //while (x.MoveNext())
+            //{
+            //    Console.WriteLine(x.Current);
+            //}
+
+
+            //IEnumerable<Cat> iEnumerableOfCats = (IEnumerable<Cat>)list;
+
+            //foreach (var catty in iEnumerableOfCats)
+            //{
+            //    Console.WriteLine(catty);
+            //}
+
+
+            Dictionary<int, string> dct = new Dictionary<int, string>();
+            dct.Add(1, "cs.net");
+            dct.Add(2, "vb.net");
+            dct.Add(3, "vb.net"); // uniqe values
+            dct.Add(4, "vb.net");
+            //foreach (KeyValuePair<int, string> kvp in dct)
+            //{
+            //    Console.WriteLine(kvp.Key + " " + kvp.Value);
+            //}
+            Console.WriteLine(dct[1]);
+
+            //Students s = new Students();
+            //Console.WriteLine(s.GetName());
+
+
+
+
+
+
+
+
+        }
     }
 }

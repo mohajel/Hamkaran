@@ -14,8 +14,7 @@ namespace ConsoleApp4.Properties
 
 
         public int Data { get; private set; }
-
-        // If a constructor in a subclass omits the base keyword, the base type’s parameterless
+                // If a constructor in a subclass omits the base keyword, the base type’s parameterless
         // constructor is implicitly called.
         public Cat(int gender, string name)
             :

@@ -6,3 +6,6 @@ C:\Users\Mohajel\Desktop\Hamkaran\ConsoleApp4\obj\Debug\ConsoleApp4.csproj.Sugge
 C:\Users\Mohajel\Desktop\Hamkaran\ConsoleApp4\obj\Debug\ConsoleApp4.csproj.CoreCompileInputs.cache
 C:\Users\Mohajel\Desktop\Hamkaran\ConsoleApp4\obj\Debug\ConsoleApp4.exe
 C:\Users\Mohajel\Desktop\Hamkaran\ConsoleApp4\obj\Debug\ConsoleApp4.pdb
+C:\Users\Mohajel\Desktop\Hamkaran\ConsoleApp4\bin\Debug\ClassLibrary1.dll
+C:\Users\Mohajel\Desktop\Hamkaran\ConsoleApp4\bin\Debug\ClassLibrary1.pdb
+C:\Users\Mohajel\Desktop\Hamkaran\ConsoleApp4\obj\Debug\ConsoleApp4.csproj.CopyComplete
